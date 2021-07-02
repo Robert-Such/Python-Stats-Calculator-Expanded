@@ -1,15 +1,14 @@
-from CsvReader import CsvReader
-
-
 def addition(a, b):
-    return int(a) + int(b)
-
+    return float(a) + float(b)
 
 def subtraction(a, b):
-    return int(b) - int(a)
+    return float(b) - float(a)
 
 def multiplication(a , b):
-    return int(a) * int(b)
+    return float(a) * float(b)
+
+def division(a , b):
+    return float(b) / float(a)
 
 
 class Calculator:
@@ -28,4 +27,8 @@ class Calculator:
 
     def multiply(self, a, b):
         self.result = multiplication(a, b)
+        return self.result
+
+    def divide(self, a, b):
+        self.result = division(a, b)
         return self.result
