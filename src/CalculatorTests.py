@@ -38,6 +38,16 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             self.assertAlmostEqual(self.calculator.square(row['Value 1']), float(row['Result']))
 
+    def test_square_root_method_calculator(self):
+        test_data = CsvReader('/src/square_root.csv').data
+        for row in test_data:
+            self.assertAlmostEqual(self.calculator.square_root(row['Value 1']), float(row['Result']))
+
+    def test_inverse_method_calculator(self):
+        test_data = CsvReader('/src/inverse.csv').data
+        for row in test_data:
+            self.assertAlmostEqual(self.calculator.inverse(row['Value 1']), float(row['Result']))
+
 
 if __name__ == '__main__':
     unittest.main()
