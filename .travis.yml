@@ -8,7 +8,7 @@ before_script:
 
 # command to run tests
 script:
-  - python -m CalculatorTests.py
+  - python -m CalculatorTests
 
 branches:
   only:
