@@ -2,12 +2,13 @@ language: python
 python:
   - "3.9"
 
-install:
+before_script:
   - pip install -r requirements.txt
+  - cd ./SOURCE/
 
 # command to run tests
 script:
-  - python -m  unittest discover -s  SOURCE
+  - python CalculatorTest.py
 
 branches:
   only:
