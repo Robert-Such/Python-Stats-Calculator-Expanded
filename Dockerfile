@@ -1,7 +1,7 @@
 FROM python:3
 
-ADD . .
+COPY . .
 
-RUN pip install coverage
+RUN pip3 install --upgrade pip
 
-CMD [ "python", "./src/CalculatorTests.py" ]
+CMD [ "python", "./SOURCE/CalculatorTests.py" ]

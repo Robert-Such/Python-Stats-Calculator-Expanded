@@ -1,26 +1,10 @@
-import math
-
-def addition(a, b):
-    return float(a) + float(b)
-
-def subtraction(a, b):
-    return float(b) - float(a)
-
-def multiplication(a , b):
-    return float(a) * float(b)
-
-def division(a , b):
-    return float(b) / float(a)
-
-def squaring(a):
-    return float(a) * float(a)
-
-def square_rooting(a):
-    return math.sqrt(float(a))
-
-def inversion(a):
-    return 1 / float(a)
-
+from addition import addition
+from subtraction import subtraction
+from multiplication import multiplication
+from division import division
+from squaring import squaring
+from square_rooting import square_rooting
+from inversion import inversion
 
 class Calculator:
     result = 0
