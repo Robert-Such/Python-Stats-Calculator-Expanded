@@ -7,7 +7,7 @@ install:
 
 # command to run tests
 script:
-  - python -m  unittest2 discover -s  SOURCE
+  - python -m  unittest discover -s  SOURCE
 
 branches:
   only:
