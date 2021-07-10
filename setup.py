@@ -4,7 +4,7 @@ setup(name='Stats Calculator',
       version='0.0.1',
       description='Statistical Calculator',
       author='Robert Such',
-      author_email='rs228@njit.edu',
+      author_email='',
       url='',
       packages=find_packages(),
      )
