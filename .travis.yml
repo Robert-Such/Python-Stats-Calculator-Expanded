@@ -2,6 +2,14 @@ language: python
 python:
   - "3.9"
 
-services:
-  - docker
+install:
+  - pip install -r requirements.txt
+
+# command to run tests
+script:
+  - python -m  unittest2 discover -s  SOURCE
+
+branches:
+  only:
+    - master
 
