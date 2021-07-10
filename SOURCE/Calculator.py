@@ -1,10 +1,10 @@
-from addition import addition
-from subtraction import subtraction
-from multiplication import multiplication
-from division import division
-from squaring import squaring
-from square_rooting import square_rooting
-from inversion import inversion
+from SOURCE.addition import addition
+from SOURCE.subtraction import subtraction
+from SOURCE.multiplication import multiplication
+from SOURCE.division import division
+from SOURCE.squaring import squaring
+from SOURCE.square_rooting import square_rooting
+from SOURCE.inversion import inversion
 
 class Calculator:
     result = 0
