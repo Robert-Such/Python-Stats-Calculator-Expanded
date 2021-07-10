@@ -4,4 +4,4 @@ COPY . .
 
 RUN pip3 install --upgrade pip
 
-CMD [ "python", "./SOURCE/CalculatorTests.py" ]
+CMD ["python", "-m", "unittest", "discover", "-s", "SOURCE"]
