@@ -25,6 +25,14 @@ class MyTestCase(unittest.TestCase):
         ExpectedMode = float(self.StatData.column['ExpectedMode'][0])
         self.assertEqual(self.StatCal.mode(self.TestValues), ExpectedMode)
 
+    def test_method_standard_deviation(self):
+        ExpectedStandardDeviation = float(self.StatData.column['ExpectedStandardDeviation'][0])
+        self.assertEqual(self.StatCal.standard_deviation(self.TestValues), ExpectedStandardDeviation)
+
+    def test_method_variance(self):
+        ExpectedVariance = float(self.StatData.column['ExpectedVariance'][0])
+        self.assertEqual(self.StatCal.variance(self.TestValues), ExpectedVariance)
+
 
 
 

@@ -1,5 +1,5 @@
 TestValues,ExpectedMean,ExpectedMedian,ExpectedVariance,ExpectedStandardDeviation,ExpectedMode
-224,439.95,483.5,99360.0475,315.2143,119
+224,439.95,483.5,99360.0475,315.21428822,119
 791,,,,,
 932,,,,,
 522,,,,,
