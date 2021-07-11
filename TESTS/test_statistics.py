@@ -5,8 +5,6 @@ from SOURCE.CsvReaderForStats import CsvReaderForStats
 
 class MyTestCase(unittest.TestCase):
 
-
-
     def setUp(self) -> None:
         self.StatCal = Statistics()
         self.StatData = CsvReaderForStats('DATA/statsdata.csv')
@@ -18,6 +16,10 @@ class MyTestCase(unittest.TestCase):
     def test_method_mean(self):
         ExpectedMean = float(self.StatData.column['ExpectedMean'][0])
         self.assertEqual(self.StatCal.mean(self.TestValues), ExpectedMean)
+
+    def test_method_median(self):
+        ExpectedMedian = float(self.StatData.column['ExpectedMedian'][0])
+        self.assertEqual(self.StatCal.median(self.TestValues), ExpectedMedian)
 
 
 
