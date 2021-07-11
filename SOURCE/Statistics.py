@@ -1,6 +1,7 @@
 from SOURCE.Calculator import Calculator
 from STATIC_METHODS.mean import mean
 from STATIC_METHODS.median import median
+from STATIC_METHODS.mode import mode
 
 
 class Statistics(Calculator):
