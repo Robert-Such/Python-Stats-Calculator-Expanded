@@ -27,7 +27,3 @@ Travis Build Status: [![Build Status](https://app.travis-ci.com/rs228-njit/pytho
 1. Helper Functions (Functions you use for checking types or performing repeated operations)
 2. Random Number Generator
 
-### Submission Instructions
-For this project, you need to submit a link to the repository on GitHub that has a building icon from Travis that shows passing.  On your Readme file, you should include your project task list and program diagram or outline.  You can use more than one page by making additional text files and linking to them.  
-
-
